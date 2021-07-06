@@ -5,6 +5,34 @@ import { About } from "../components/About.js";
 import { Projects } from "../components/Projects.js";
 import { Contact } from "../components/Contact.js";
 export default function Home() {
+  const section1Ref = useRef();
+  const section2Ref = useRef();
+  const section3Ref = useRef();
+  const section4Ref = useRef();
+
+  const navHeader = [
+    {
+      headerTitle: "Section 1",
+      headerRef: section1Ref,
+      headerID: "section1",
+    },
+    {
+      headerTitle: "Section 2",
+      headerRef: section2Ref,
+      headerID: "section2",
+    },
+    {
+      headerTitle: "Section 3",
+      headerRef: section3Ref,
+      headerID: "section3",
+    },
+    {
+      headerTitle: "Section 4",
+      headerRef: section4Ref,
+      headerID: "section4",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -23,7 +51,7 @@ export default function Home() {
         />
       </Head>
 
-      <section id="home">
+      <section id="home" ref={section1Ref}>
         <Canvas />
       </section>
 

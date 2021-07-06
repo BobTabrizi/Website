@@ -15,7 +15,7 @@ export const Canvas = () => {
         </div>
         <div
           style={{
-            bottom: "0px",
+            bottom: "-10px",
             position: "absolute",
             overflow: "hidden",
             justifyContent: "center",

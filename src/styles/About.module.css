@@ -1,0 +1,14 @@
+.aboutHeader {
+  color: white;
+  font-family: "Open Sans";
+  margin-top: 50px;
+}
+.underLine {
+  z-index: 1;
+  border: 0;
+  border-top: 10px solid #6596cf;
+  margin-top: 5px;
+  padding: 0;
+  margin-bottom: 50px;
+  width: 125px;
+}

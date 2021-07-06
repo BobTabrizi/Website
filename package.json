@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
+    "build:watch": "postcss src/styles/tailwind.css -o src/styles/main.css --watch",
+    "prod:build": "NODE_ENV=production npm run build:css && npm run build"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.6",
     "next": "11.0.1",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.4"
   },
   "devDependencies": {
     "eslint": "7.30.0",

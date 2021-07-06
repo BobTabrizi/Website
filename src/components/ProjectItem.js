@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React from "react";
 import styles from "../styles/Projects.module.css";
 export const ProjectItem = ({ props }) => {
   if (props.ID % 2 === 0) {
     return (
       <>
         <div className={styles.projectContainer}>
-          <div class="grid grid-cols-2 gap-16 mx-40 mt-24">
+          <div className="grid grid-cols-2 gap-16 mx-40 mt-24">
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>
                 <div
@@ -27,7 +26,7 @@ export const ProjectItem = ({ props }) => {
               </div>
             </div>
             <div>
-              <img src={props.Img} />
+              <img src={props.Img} alt="Project Image" />
             </div>
           </div>
         </div>
@@ -37,9 +36,9 @@ export const ProjectItem = ({ props }) => {
     return (
       <>
         <div className={styles.projectContainer}>
-          <div class="grid grid-cols-2 gap-8 mx-40 mt-24">
+          <div className="grid grid-cols-2 gap-8 mx-40 mt-24">
             <div>
-              <img src={props.Img} />
+              <img src={props.Img} alt="Project Image" />
             </div>
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>

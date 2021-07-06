@@ -26,9 +26,7 @@ export default function Home() {
       </Head>
 
       <section id="home">
-        <div className={styles.container}>
-          <Canvas />
-        </div>
+        <Canvas />
       </section>
 
       <NavBar />

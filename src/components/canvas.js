@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import styles from "../styles/Canvas.module.css";
 
@@ -25,7 +25,7 @@ export const Canvas = () => {
             left: "35%",
           }}
         >
-          <img src="/bob.png" className="object-contain" />
+          <img src="/bob.png" className="object-contain" alt="Profile Image" />
         </div>
 
         <div className={styles.headerInfo}>

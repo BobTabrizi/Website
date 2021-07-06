@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React from "react";
 import styles from "../styles/Projects.module.css";
 import ProjectData from "../../Projects.json";
 import { ProjectItem } from "../components/ProjectItem";
@@ -14,8 +13,8 @@ export const Projects = () => {
           </div>
         </div>
 
-        {ProjectData.map((Project, index) => (
-          <ProjectItem props={Project}></ProjectItem>
+        {ProjectData.map((Project) => (
+          <ProjectItem props={Project} key={Project.ID}></ProjectItem>
         ))}
       </div>
     </>

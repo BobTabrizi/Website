@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
-import styles from "../styles/Canvas.module.css";
 export const NavBar = () => {
   return (
     <>
-      <header class="sticky top-0 z-50">
+      <header className="sticky top-0 z-50">
         <nav
           className="flex items-center flex-wrap bg-navyBlack p-0.5"
           style={{ borderBottom: "solid black 3px" }}

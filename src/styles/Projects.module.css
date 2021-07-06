@@ -1,5 +1,7 @@
 .projectContainer {
   background-color: #ececed;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .projectInfoWrapper {
@@ -16,7 +18,29 @@
   font-family: "Open Sans";
 }
 
-.infoBody {
+.InfoBody {
   margin: auto;
   position: relative;
+}
+
+.projectHeader {
+  color: black;
+  font-family: "Open Sans";
+}
+.underLine {
+  z-index: 1;
+  border: 0;
+  border-top: 10px solid #6596cf;
+  margin-top: 5px;
+  padding: 0;
+  margin-bottom: 50px;
+  width: 175px;
+}
+
+.projectLinks {
+  color: blue;
+}
+
+.projectLinks:hover {
+  color: #6596cf;
 }

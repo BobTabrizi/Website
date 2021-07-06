@@ -4,32 +4,32 @@
     "Name":"Hello World",
     "Tech":"NextJS + Node.js + Express +  MongoDB + AWS",
     "Img":"/HelloWorld.jpg",
-    "Link":"TBD",
-    "Description":"TBD"
+    "Link":"https://github.com/BobTabrizi/Hello-World",
+    "Description":"Spotify web application that allows users to explore and discover sounds from nations around the world."
  }, 
  { 
     "ID":2,
     "Name":"GenSim",
     "Tech":"React Native + Firebase",
     "Img":"/GenSim.png",
-    "Link":"TBD",
-    "Description":"TBD"
+    "Link":"https://play.google.com/store/apps/details?id=com.gensim",
+    "Description":"Mobile application simulator based off of the game Genshin Impact developed using community speculated probabilities."
  },
  { 
     "ID":3,
     "Name":"Bob Appetit",
     "Tech":"React Native + Firebase",
     "Img":"BobAppetit.jpg",
-    "Link":"TBD",
-    "Description":"TBD"
+    "Link":"https://play.google.com/store/apps/details?id=com.bobappet",
+    "Description":"Mobile app that generates food recommendations based on personal preferences (allergies, diet, cuisine)."
  },
  { 
     "ID":4,
     "Name":"Auto Java",
     "Tech":"Java",
     "Img":"/AutoJava.jpg",
-    "Link":"TBD",
-    "Description":"TBD"
+    "Link":"https://github.com/BobTabrizi/AutoJava",
+    "Description":"Desktop application that records inputs from mouse/keyboard and stores them in text files for real time playback."
  }
 
 ]

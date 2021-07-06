@@ -30,20 +30,22 @@ export const NavBar = () => {
               </span>
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/#contact">
             <a className="inline-flex items-center p-2 mr-4 ">
               <span className="text-xl text-white font-bold uppercase tracking-wide hover:text-specialBlue">
                 CONTACT
               </span>
             </a>
           </Link>
-          <Link href="/">
-            <a className="inline-flex items-center p-2 mr-4 ">
-              <span className="text-xl text-white font-bold uppercase tracking-wide hover:text-specialBlue">
-                RESUME
-              </span>
-            </a>
-          </Link>
+          <a
+            className="inline-flex items-center p-2 mr-4"
+            href="/Bob-Tabrizi-Resume.pdf"
+            download
+          >
+            <span className="text-xl text-white font-bold uppercase tracking-wide hover:text-specialBlue">
+              RESUME
+            </span>
+          </a>
         </nav>
       </header>
     </>

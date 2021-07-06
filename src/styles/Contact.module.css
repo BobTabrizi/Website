@@ -19,5 +19,10 @@
   margin-top: 5px;
   margin-left: 5px;
   padding: 0;
-  width: 150px;
+  width: 200px;
+}
+
+.contactButtons {
+  display: flex;
+  flex-direction: row;
 }

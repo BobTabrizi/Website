@@ -1,7 +1,7 @@
 .aboutHeader {
   color: white;
   font-family: "Open Sans";
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .underLine {
   z-index: 1;
@@ -34,4 +34,10 @@
 .cardHeader {
   color: white;
   background-color: #6596cf;
+  font-family: "Open Sans";
+}
+
+.cardBody {
+  font-family: "Open Sans";
+  font-size: larger;
 }

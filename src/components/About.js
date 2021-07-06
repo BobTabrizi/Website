@@ -23,32 +23,50 @@ export const About = () => {
               <br /> Computer Science and Mathematics
             </div>
           </div>
-          <div style={{ color: "#6596cf", fontFamily: "Open Sans" }}>
+          <div
+            style={{
+              color: "#6596cf",
+              fontFamily: "Open Sans",
+              marginTop: "5%",
+            }}
+          >
             RELEVANT SKILLS
           </div>
 
           <div class="items-center text-center mt-5">
-            <div class="grid grid-cols-3 gap-8 mb-48">
+            <div class="grid grid-cols-3 gap-8 mb-48 mt-10">
               <div className={styles.card}>
-                <div className={styles.cardHeader}>FRONT END</div>
-                <div>JavaScript</div>
-                <div>React Native / ReactJS / NextJS</div>
-                <div>HTML / CSS</div>
-                <div>Angular</div>
+                <div className={styles.cardHeader} style={{ fontSize: 20 }}>
+                  FRONT END
+                </div>
+                <div className={styles.cardBody}>
+                  <div style={{ marginTop: "5%" }}>JavaScript</div>
+                  <div>React Native / ReactJS / NextJS</div>
+                  <div>HTML / CSS</div>
+                  <div>Angular</div>
+                </div>
               </div>
               <div className={styles.card}>
-                <div className={styles.cardHeader}>BACK END</div>
-                <div>C++</div>
-                <div>Java</div>
-                <div>Python</div>
-                <div>mySQL / noSQL</div>
+                <div className={styles.cardHeader} style={{ fontSize: 20 }}>
+                  BACK END
+                </div>
+                <div className={styles.cardBody}>
+                  <div style={{ marginTop: "5%" }}>C++</div>
+                  <div>Java</div>
+                  <div>Python</div>
+                  <div>mySQL / noSQL</div>
+                </div>
               </div>
               <div className={styles.card}>
-                <div className={styles.cardHeader}>TOOLS</div>
-                <div>Git</div>
-                <div>Docker</div>
-                <div>MongoDB</div>
-                <div>AWS S3 / Lambda</div>
+                <div className={styles.cardHeader} style={{ fontSize: 20 }}>
+                  TOOLS
+                </div>
+                <div className={styles.cardBody}>
+                  <div style={{ marginTop: "5%" }}>Git</div>
+                  <div>Docker</div>
+                  <div>MongoDB</div>
+                  <div>AWS S3 / Lambda</div>
+                </div>
               </div>
             </div>
           </div>

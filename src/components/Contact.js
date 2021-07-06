@@ -10,7 +10,20 @@ export const Contact = () => {
             CONTACT
             <hr className={styles.underLine} />
           </div>
-          <div className={styles.contactButtons}>Placeholder For Icons</div>
+          <div className={styles.contactButtons}>
+            <a href="https://www.linkedin.com/in/bob-tabrizi-57048a183/">
+              <img src="/LinkedIn.png"></img>
+            </a>
+            <a
+              href="https://github.com/BobTabrizi"
+              style={{ marginLeft: 40, marginRight: 40 }}
+            >
+              <img src="/Github.png"></img>
+            </a>
+            <a href="mailto:btabrizi@ucsd.edu">
+              <img src="/Email.png"></img>
+            </a>
+          </div>
         </div>
       </div>
     </>

@@ -6,19 +6,26 @@
   padding: 0 180px;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 .headerName {
   color: white;
   font-family: "Open Sans";
   margin-top: 150px;
   line-height: 80px;
+  position: absolute;
 }
 
 .headerInfo {
   color: white;
+  display: flex;
+  flex-direction: column;
   font-family: "Open Sans";
   font-size: xx-large;
-  margin-top: 500px;
+  right: 50px;
+  top: 65%;
+  align-content: center;
+  justify-content: center;
   position: absolute;
   line-height: 40px;
   right: 110px;
@@ -27,6 +34,17 @@
 .buttonLink {
   margin-top: 20px;
   text-align: center;
+  color: white;
+  border-width: 5px;
+  border-color: #6596cf;
+  padding: 6px 25px 6px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.buttonLink:hover {
+  background-color: #6596cf;
+  border-color: white;
   color: white;
 }
 

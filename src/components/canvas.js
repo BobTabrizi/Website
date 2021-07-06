@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "../styles/Canvas.module.css";
+
 export const Canvas = () => {
   return (
     <>
@@ -26,13 +27,18 @@ export const Canvas = () => {
         >
           <img src="/bob.png" className="object-contain" />
         </div>
+
         <div className={styles.headerInfo}>
           <div className={styles.headerDescription}>
             Software Engineer,
             <br />
             Based in California
           </div>
-          <div className={styles.buttonLink}>View My Work</div>
+          <Link href="/#projects" scroll={false}>
+            <button className={styles.buttonLink} style={{ fontSize: 24 }}>
+              View My Work
+            </button>
+          </Link>
         </div>
       </div>
     </>

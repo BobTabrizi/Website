@@ -15,8 +15,6 @@ export const Canvas = () => {
         </div>
         <div
           style={{
-            height: "700px",
-            width: "600px",
             bottom: "0px",
             position: "absolute",
             overflow: "hidden",
@@ -29,6 +27,9 @@ export const Canvas = () => {
             src="/bob.png"
             className="object-contain"
             alt="Profile Image"
+            height="700px"
+            width="600px"
+            priority={true}
           />
         </div>
 

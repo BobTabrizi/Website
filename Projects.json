@@ -19,7 +19,7 @@
     "ID":3,
     "Name":"Bob Appetit",
     "Tech":"React Native + Firebase",
-    "Img":"BobAppetit.jpg",
+    "Img":"/BobAppetit.jpg",
     "Link":"https://play.google.com/store/apps/details?id=com.bobappet",
     "Description":"Mobile app that generates food recommendations based on personal preferences (allergies, diet, cuisine)."
  },

@@ -12,16 +12,34 @@ export const Contact = () => {
           </div>
           <div className={styles.contactButtons}>
             <a href="https://www.linkedin.com/in/bob-tabrizi-57048a183/">
-              <Image src="/LinkedIn.png" alt="LinkedIn Link"></Image>
+              <Image
+                src="/LinkedIn.png"
+                height="60px"
+                width="60px"
+                alt="LinkedIn Link"
+                priority={true}
+              ></Image>
             </a>
             <a
               href="https://github.com/BobTabrizi"
               style={{ marginLeft: 40, marginRight: 40 }}
             >
-              <Image src="/Github.png" alt="Github Link"></Image>
+              <Image
+                src="/Github.png"
+                height="60px"
+                width="60px"
+                alt="Github Link"
+                priority={true}
+              ></Image>
             </a>
             <a href="mailto:btabrizi@ucsd.edu">
-              <Image src="/Email.png" alt="Email Link"></Image>
+              <Image
+                src="/Email.png"
+                height="60px"
+                width="60px"
+                alt="Email Link"
+                priority={true}
+              ></Image>
             </a>
           </div>
         </div>

@@ -27,7 +27,13 @@ export const ProjectItem = ({ props }) => {
               </div>
             </div>
             <div>
-              <Image src={props.Img} alt="Project Image" />
+              <Image
+                src={props.Img}
+                height="350px"
+                width="500px"
+                alt="Project Image"
+                priority={true}
+              />
             </div>
           </div>
         </div>
@@ -39,7 +45,13 @@ export const ProjectItem = ({ props }) => {
         <div className={styles.projectContainer}>
           <div className="grid grid-cols-2 gap-8 mx-40 mt-24">
             <div>
-              <Image src={props.Img} alt="Project Image" />
+              <Image
+                src={props.Img}
+                height="350px"
+                width="500px"
+                alt="Project Image"
+                priority={true}
+              />
             </div>
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>

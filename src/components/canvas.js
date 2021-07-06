@@ -39,7 +39,7 @@ export const Canvas = () => {
             <br />
             Based in California
           </div>
-          <Link href="/#projects" scroll={false}>
+          <Link href="/#projects" passHref={true}>
             <button className={styles.buttonLink} style={{ fontSize: 24 }}>
               View My Work
             </button>

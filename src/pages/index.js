@@ -1,11 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { Canvas } from "../components/Canvas";
-import { NavBar } from "../components/NavBar";
-import { About } from "../components/About";
-import { Projects } from "../components/Projects";
-import { Contact } from "../components/Contact";
+import { Canvas } from "../components/Canvas.js";
+import { NavBar } from "../components/NavBar.js";
+import { About } from "../components/About.js";
+import { Projects } from "../components/Projects.js";
+import { Contact } from "../components/Contact.js";
 export default function Home() {
   return (
     <>

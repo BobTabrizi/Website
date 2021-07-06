@@ -1,0 +1,35 @@
+[
+ {
+    "ID":1,
+    "Name":"Hello World",
+    "Tech":"NextJS + Node.js + Express +  MongoDB + AWS",
+    "Img":"/HelloWorld.jpg",
+    "Link":"TBD",
+    "Description":"TBD"
+ }, 
+ { 
+    "ID":2,
+    "Name":"GenSim",
+    "Tech":"React Native + Firebase",
+    "Img":"/GenSim.png",
+    "Link":"TBD",
+    "Description":"TBD"
+ },
+ { 
+    "ID":3,
+    "Name":"Bob Appetit",
+    "Tech":"React Native + Firebase",
+    "Img":"BobAppetit.jpg",
+    "Link":"TBD",
+    "Description":"TBD"
+ },
+ { 
+    "ID":4,
+    "Name":"Auto Java",
+    "Tech":"Java",
+    "Img":"/AutoJava.jpg",
+    "Link":"TBD",
+    "Description":"TBD"
+ }
+
+]

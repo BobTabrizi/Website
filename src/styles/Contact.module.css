@@ -1,0 +1,23 @@
+.contactContainer {
+  background-color: #1b242f;
+  height: calc(30vh);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactHeader {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.underLine {
+  z-index: 1;
+  border: 0;
+  border-top: 10px solid #6596cf;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 0;
+  width: 150px;
+}

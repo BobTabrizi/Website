@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Canvas from "../components/canvas";
+import { Canvas } from "../components/Canvas";
 import { NavBar } from "../components/NavBar";
 import { About } from "../components/About";
+import { Projects } from "../components/Projects";
+import { Contact } from "../components/Contact";
 export default function Home() {
   return (
     <>
@@ -18,11 +20,24 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className={styles.container}>
-        <Canvas />
-      </div>
+
+      <section id="home">
+        <div className={styles.container}>
+          <Canvas />
+        </div>
+      </section>
+
       <NavBar />
-      <About />
+
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   );
 }

@@ -26,6 +26,7 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       navyBlack: "#2a2a32",
+      specialBlue: "#6596cf",
     },
     spacing: {
       px: "1px",
@@ -999,6 +1000,7 @@ module.exports = {
       "focus-within",
       "hover",
       "focus",
+      "active",
     ],
     textDecoration: [
       "responsive",

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "../styles/Canvas.module.css";
-export default function canvas() {
+export const Canvas = () => {
   return (
     <>
       <div className={styles.canvasContainer}>
@@ -37,4 +37,4 @@ export default function canvas() {
       </div>
     </>
   );
-}
+};

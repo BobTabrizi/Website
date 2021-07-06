@@ -1,0 +1,22 @@
+.projectContainer {
+  background-color: #ececed;
+}
+
+.projectInfoWrapper {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.projectInfoHeader {
+  font-family: "Open Sans";
+  font-size: xx-large;
+}
+
+.projectInfoTech {
+  font-family: "Open Sans";
+}
+
+.infoBody {
+  margin: auto;
+  position: relative;
+}

@@ -12,3 +12,26 @@
   margin-bottom: 50px;
   width: 125px;
 }
+
+.aboutBio {
+  color: white;
+  font-family: "Open Sans";
+  width: 75%;
+}
+
+.aboutBody {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutEducation {
+  font-family: "Open Sans";
+  width: 25%;
+  text-align: center;
+  top: 5000px;
+}
+
+.cardHeader {
+  color: white;
+  background-color: #6596cf;
+}

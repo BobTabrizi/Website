@@ -12,8 +12,8 @@ export const About = () => {
             </div>
             <div className={styles.aboutBody}>
               <div className={styles.aboutBio} style={{ fontSize: 20 }}>
-                I'm an apsiring software engineer currently located in San Jose
-                CA.
+                I&apos;m an apsiring software engineer currently located in San
+                Jose CA.
                 <br />I have a deep passion for desiging and developing cool new
                 things that others can use.
               </div>

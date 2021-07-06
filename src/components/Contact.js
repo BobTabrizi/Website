@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
+import Image from "next/image";
 export const Contact = () => {
   return (
     <>
@@ -11,16 +12,16 @@ export const Contact = () => {
           </div>
           <div className={styles.contactButtons}>
             <a href="https://www.linkedin.com/in/bob-tabrizi-57048a183/">
-              <img src="/LinkedIn.png" alt="LinkedIn Link"></img>
+              <Image src="/LinkedIn.png" alt="LinkedIn Link"></Image>
             </a>
             <a
               href="https://github.com/BobTabrizi"
               style={{ marginLeft: 40, marginRight: 40 }}
             >
-              <img src="/Github.png" alt="Github Link"></img>
+              <Image src="/Github.png" alt="Github Link"></Image>
             </a>
             <a href="mailto:btabrizi@ucsd.edu">
-              <img src="/Email.png" alt="Email Link"></img>
+              <Image src="/Email.png" alt="Email Link"></Image>
             </a>
           </div>
         </div>

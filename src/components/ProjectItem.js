@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Projects.module.css";
+import Image from "next/image";
 export const ProjectItem = ({ props }) => {
   if (props.ID % 2 === 0) {
     return (
@@ -26,7 +27,7 @@ export const ProjectItem = ({ props }) => {
               </div>
             </div>
             <div>
-              <img src={props.Img} alt="Project Image" />
+              <Image src={props.Img} alt="Project Image" />
             </div>
           </div>
         </div>
@@ -38,7 +39,7 @@ export const ProjectItem = ({ props }) => {
         <div className={styles.projectContainer}>
           <div className="grid grid-cols-2 gap-8 mx-40 mt-24">
             <div>
-              <img src={props.Img} alt="Project Image" />
+              <Image src={props.Img} alt="Project Image" />
             </div>
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>

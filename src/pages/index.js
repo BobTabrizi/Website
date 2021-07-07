@@ -4,7 +4,12 @@ import { NavBar } from "../components/NavBar.js";
 import { About } from "../components/About.js";
 import { Projects } from "../components/Projects.js";
 import { Contact } from "../components/Contact.js";
+import React, { useRef, useEffect } from "react";
 export default function Home() {
+  const AboutRef = useRef(null);
+  const ProjectsRef = useRef(null);
+  const ContactRef = useRef(null);
+
   return (
     <>
       <Head>
@@ -27,15 +32,19 @@ export default function Home() {
         <Canvas />
       </section>
 
-      <NavBar />
+      <NavBar
+        AboutRef={AboutRef}
+        ProjectsRef={ProjectsRef}
+        ContactRef={ContactRef}
+      />
 
-      <section id="about">
+      <section id="about" ref={AboutRef}>
         <About />
       </section>
-      <section id="projects">
+      <section id="projects" ref={ProjectsRef}>
         <Projects />
       </section>
-      <section id="contact">
+      <section id="contact" ref={ContactRef}>
         <Contact />
       </section>
     </>

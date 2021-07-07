@@ -1,0 +1,8 @@
+.listing {
+  list-style: none;
+  color: white;
+}
+
+.listing:hover {
+  color: #6596cf;
+}

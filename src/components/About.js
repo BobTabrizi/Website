@@ -33,6 +33,7 @@ export const About = () => {
               RELEVANT SKILLS
             </div>
 
+  
             <div className="items-center text-center mt-5">
               <div className="grid grid-cols-3 gap-8 mb-48 mt-10">
                 <div className={styles.card}>

@@ -16,3 +16,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.active {
+  color: #6596cf;
+}

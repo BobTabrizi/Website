@@ -6,7 +6,7 @@ export const ProjectItem = ({ props }) => {
     return (
       <>
         <div className={styles.projectContainer}>
-          <div className="grid grid-cols-2 gap-16 mx-40 mt-24">
+          <div className={styles.projectItem}>
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>
                 <div
@@ -26,7 +26,7 @@ export const ProjectItem = ({ props }) => {
                 </a>
               </div>
             </div>
-            <div>
+            <div className={styles.projectImage}>
               <Image
                 src={props.Img}
                 height="350px"
@@ -43,8 +43,8 @@ export const ProjectItem = ({ props }) => {
     return (
       <>
         <div className={styles.projectContainer}>
-          <div className="grid grid-cols-2 gap-8 mx-40 mt-24">
-            <div>
+          <div className={styles.projectItem}>
+            <div className={styles.projectImage}>
               <Image
                 src={props.Img}
                 height="350px"

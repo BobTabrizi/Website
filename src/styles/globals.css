@@ -20,3 +20,35 @@ a {
 .active {
   color: #6596cf;
 }
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: absolute;
+  top: 49px;
+  background: #353544;
+  right: 0;
+  bottom: 0;
+  height: 25vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 100vw;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+.menuNav {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+}
+
+.menuNav li {
+  margin-top: 1%;
+}
+.menuNav li:first-child {
+  margin-top: 1%;
+}

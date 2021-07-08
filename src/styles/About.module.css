@@ -12,13 +12,13 @@
   margin-top: 5px;
   padding: 0;
   margin-bottom: 50px;
-  width: 125px;
+  width: 135px;
 }
 
 .aboutBio {
   color: white;
   font-family: "Open Sans";
-  width: 75%;
+  width: 60%;
 }
 
 .aboutBody {
@@ -26,11 +26,17 @@
   flex-direction: row;
 }
 
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
 .aboutEducation {
   font-family: "Open Sans";
-  width: 25%;
+  width: 40%;
   text-align: center;
-  top: 5000px;
 }
 
 .cardHeader {
@@ -43,4 +49,63 @@
 .cardBody {
   font-family: "Open Sans";
   font-size: larger;
+}
+
+@media only screen and (min-width: 930px) {
+  .card {
+    display: flex;
+    margin: 5%;
+    width: 33%;
+    flex-direction: column;
+  }
+  .cardList li:first-child {
+    margin-top: 5%;
+  }
+  .skillHeader {
+    color: #6596cf;
+    font-family: "Open Sans";
+    margin-top: 5%;
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .aboutHeader {
+    color: white;
+    font-family: "Open Sans";
+    padding-top: 50px;
+    margin: auto;
+  }
+  .aboutBody {
+    flex-direction: column;
+  }
+  .aboutEducation {
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+  }
+  .aboutBio {
+    margin: auto;
+    text-align: center;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    display: flex;
+    margin-top: 5%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+  }
+  .cardList li:first-child {
+    margin-top: 1%;
+  }
+  .skillHeader {
+    color: #6596cf;
+    font-family: "Open Sans";
+    margin-top: 10%;
+    text-align: center;
+  }
 }

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Canvas } from "../components/Canvas.js";
 import { NavBar } from "../components/NavBar.js";
+import { MobileNavBar } from "../components/MobileNavBar.js";
 import { About } from "../components/About.js";
 import { Projects } from "../components/Projects.js";
 import { Contact } from "../components/Contact.js";
@@ -37,6 +38,7 @@ export default function Home() {
         ProjectsRef={ProjectsRef}
         ContactRef={ContactRef}
       />
+      <MobileNavBar />
 
       <section id="about" ref={AboutRef}>
         <About />

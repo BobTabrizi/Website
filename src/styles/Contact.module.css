@@ -1,16 +1,17 @@
 .contactContainer {
   background-color: #1b242f;
-  height: calc(30vh);
+  height: calc(45vh);
   color: white;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .contactHeader {
   color: white;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 .underLine {
   z-index: 1;
@@ -19,10 +20,22 @@
   margin-top: 5px;
   margin-left: 5px;
   padding: 0;
-  width: 200px;
+  width: 225px;
+  display: flex;
 }
 
 .contactButtons {
   display: flex;
   flex-direction: row;
+  margin: auto;
+}
+
+@media only screen and (max-width: 930px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactButtons {
+    margin-top: 5%;
+  }
 }

@@ -2,13 +2,18 @@
   background-color: #ececed;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 100wv;
+}
+
+.projectItem {
+  display: flex;
+  margin: 0 2% 0 2%;
 }
 
 .projectInfoWrapper {
   text-align: center;
   align-items: center;
   display: flex;
+  margin: auto;
 }
 .projectInfoHeader {
   font-family: "Open Sans";
@@ -27,6 +32,8 @@
 .projectHeader {
   color: black;
   font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
 }
 .underLine {
   z-index: 1;
@@ -35,7 +42,7 @@
   margin-top: 5px;
   padding: 0;
   margin-bottom: 50px;
-  width: 175px;
+  width: 185px;
 }
 
 .projectLinks {
@@ -44,4 +51,24 @@
 
 .projectLinks:hover {
   color: #6596cf;
+}
+
+@media only screen and (min-width: 930px) {
+  .projectHeader {
+    margin: 3rem;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .projectItem {
+    flex-direction: column;
+  }
+  .projectImage {
+    margin: auto;
+  }
+  .projectHeader {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }

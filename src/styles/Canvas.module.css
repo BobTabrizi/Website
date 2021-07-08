@@ -132,10 +132,16 @@
     height: 90%;
     width: 90%;
   }
+
+  .headerItem {
+    margin-top: 1%;
+  }
+
   .headerName {
     font-size: 50px;
     text-align: center;
     line-height: 60px;
+    margin-bottom: -15%;
   }
   .underLine {
     margin-top: 5%;
@@ -143,6 +149,7 @@
 
   .headerDescription {
     font-size: 24px;
+    margin-top: -25%;
   }
 }
 
@@ -165,7 +172,6 @@
     z-index: -1;
   }
   .headerItem {
-    margin: auto;
     position: relative;
   }
 

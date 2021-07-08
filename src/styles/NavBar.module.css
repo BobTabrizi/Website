@@ -12,7 +12,15 @@
   border-bottom: solid black 3px;
   color: white;
 }
+.mobileNavBar {
+  display: flex;
+}
 
+.mobileNavButton {
+  margin-left: auto;
+  display: flex;
+  padding: 1%;
+}
 @media only screen and (max-width: 750px) {
   .desktopNavContainer {
     display: none;
@@ -29,18 +37,6 @@
   .mobileNavContainer {
     display: none;
   }
-}
-
-.mobileNavBar {
-  position: relative;
-}
-
-.mobileNavBar button {
-  position: fixed;
-  left: 40px;
-  top: 40px;
-  z-index: 10;
-  cursor: pointer;
 }
 
 .menuNav {

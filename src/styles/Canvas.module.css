@@ -1,11 +1,10 @@
 .canvasContainer {
   background-color: #353544;
-  height: calc(100vh);
   position: relative;
-
   display: flex;
   overflow: hidden;
   align-items: center;
+  height: 100vh;
 }
 
 .headerItem {
@@ -38,7 +37,6 @@
   top: 65%;
   align-content: center;
   justify-content: center;
-
   line-height: 40px;
   right: 110px;
 }
@@ -89,6 +87,10 @@
     margin: auto;
     position: absolute;
   }
+
+  .mobileImage {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -108,10 +110,18 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .mobileImage {
+    height: 150px;
+    width: 150px;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .canvasContainer {
     flex-direction: column;
   }
+
   .headerImage {
     z-index: -1;
   }

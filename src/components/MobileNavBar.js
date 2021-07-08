@@ -13,7 +13,7 @@ export const MobileNavBar = (props) => {
       <header className="sticky top-0 z-50">
         <div className={styles.mobileNavContainer}>
           <nav className="mobileNavBar">
-            <button onClick={handleToggle} style={{ marginLeft: "90%" }}>
+            <button onClick={handleToggle} className={styles.mobileNavButton}>
               {navbarOpen ? (
                 <MdClose
                   style={{ color: "#fff", width: "40px", height: "40px" }}

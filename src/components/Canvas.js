@@ -26,6 +26,23 @@ export const Canvas = () => {
               priority={true}
             />
           </div>
+
+          <div className={styles.mobileImage}>
+            <Image
+              src="/bobCrop.png"
+              className="mobileAvatar"
+              alt="Profile Image"
+              height="250px"
+              width="250px"
+              priority={true}
+            />
+
+            <style jsx global>{`
+              .mobileAvatar {
+                border-radius: 50%;
+              }
+            `}</style>
+          </div>
         </div>
         <div className={styles.headerItem}>
           <div className={styles.headerInfo}>

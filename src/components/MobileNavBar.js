@@ -27,29 +27,41 @@ export const MobileNavBar = (props) => {
             <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
               <Link href="/#home">
                 <li>
-                  <a style={{ cursor: "pointer" }}>HOME</a>
+                  <a style={{ cursor: "pointer" }} onClick={handleToggle}>
+                    HOME
+                  </a>
                 </li>
               </Link>
               <Link href="/#about">
                 <li>
-                  <a style={{ cursor: "pointer" }}>ABOUT</a>
+                  <a style={{ cursor: "pointer" }} onClick={handleToggle}>
+                    ABOUT
+                  </a>
                 </li>
               </Link>
 
               <Link href="/#projects">
                 <li>
-                  <a style={{ cursor: "pointer" }}>PROJECTS</a>
+                  <a style={{ cursor: "pointer" }} onClick={handleToggle}>
+                    PROJECTS
+                  </a>
                 </li>
               </Link>
 
               <Link href="/#contact">
                 <li>
-                  <a style={{ cursor: "pointer" }}>CONTACT</a>
+                  <a style={{ cursor: "pointer" }} onClick={handleToggle}>
+                    CONTACT
+                  </a>
                 </li>
               </Link>
 
               <li>
-                <a href="/Bob-Tabrizi-Resume.pdf" download>
+                <a
+                  href="/Bob-Tabrizi-Resume.pdf"
+                  download
+                  onClick={handleToggle}
+                >
                   RESUME
                 </a>
               </li>

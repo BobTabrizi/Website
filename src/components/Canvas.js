@@ -8,7 +8,7 @@ export const Canvas = () => {
       <div className={styles.canvasContainer}>
         <div className={styles.headerItem}>
           <div className={styles.headerName}>
-            <div style={{ fontSize: 85 }}>
+            <div>
               Bob
               <br /> Tabrizi
               <hr className={styles.underLine} />

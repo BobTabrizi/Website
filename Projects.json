@@ -1,6 +1,15 @@
 [
+   {
+      "ID":1,
+      "Name":"Gift Handler",
+      "Tech":"ReactJS + Redux + Node.js + Express +  PostgreSQL",
+      "Img":"/GiftHandler.png",
+      "Link":"https://github.com/BobTabrizi/GiftHandler",
+      "CurrentDev":true,
+      "Description":"Gift Registry Website for organizing gifting during special events"
+   }, 
  {
-    "ID":1,
+    "ID":2,
     "Name":"Hello World",
     "Tech":"NextJS + Node.js + Express +  MongoDB + AWS",
     "Img":"/HelloWorld.jpg",
@@ -8,7 +17,7 @@
     "Description":"Spotify web application that allows users to explore and discover sounds from nations around the world."
  }, 
  { 
-    "ID":2,
+    "ID":3,
     "Name":"GenSim",
     "Tech":"React Native + Firebase",
     "Img":"/GenSim.png",
@@ -16,7 +25,7 @@
     "Description":"Mobile application simulator based off of the game Genshin Impact developed using community speculated probabilities."
  },
  { 
-    "ID":3,
+    "ID":4,
     "Name":"Bob Appetit",
     "Tech":"React Native + Firebase",
     "Img":"/BobAppetit.jpg",
@@ -24,7 +33,7 @@
     "Description":"Mobile app that generates food recommendations based on personal preferences (allergies, diet, cuisine)."
  },
  { 
-   "ID":4,
+   "ID":5,
    "Name":"TT Damage Calculator",
    "Tech":"Angular + Bootstrap",
    "Img":"/TTDamageCalculator.png",
@@ -32,7 +41,7 @@
    "Description":"A damage calculator that simulates Toontown battle mechanics for a single turn. Current version is for the Corporate Clash server."
 },
  { 
-    "ID":5,
+    "ID":6,
     "Name":"Auto Java",
     "Tech":"Java",
     "Img":"/AutoJava.jpg",

@@ -53,6 +53,16 @@
   color: #6596cf;
 }
 
+.devTag {
+  color: white;
+  font-family: "Open Sans";
+  background-color: rgb(21, 156, 247);
+  border-radius: 25px;
+  width: 35%;
+  margin: auto;
+  padding: 1%;
+}
+
 @media only screen and (min-width: 930px) {
   .projectHeader {
     margin: 3rem;

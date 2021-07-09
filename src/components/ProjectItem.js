@@ -2,6 +2,10 @@ import React from "react";
 import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 export const ProjectItem = ({ props }) => {
+  let devComponent = null;
+  if (props.CurrentDev) {
+    devComponent = <div className={styles.devTag}>In Development</div>;
+  }
   if (props.ID % 2 === 0) {
     return (
       <>
@@ -9,6 +13,7 @@ export const ProjectItem = ({ props }) => {
           <div className={styles.projectItem}>
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>
+                {devComponent}
                 <div
                   className={styles.projectInfoHeader}
                   style={{ fontSize: 50 }}
@@ -55,6 +60,7 @@ export const ProjectItem = ({ props }) => {
             </div>
             <div className={styles.projectInfoWrapper}>
               <div className={styles.InfoBody}>
+                {devComponent}
                 <div
                   className={styles.projectInfoHeader}
                   style={{ fontSize: 50 }}

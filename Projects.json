@@ -2,7 +2,7 @@
    {
       "ID":1,
       "Name":"Gift Handler",
-      "Tech":"ReactJS + Redux + Node.js + Express +  PostgreSQL",
+      "Tech":"ReactJS + Redux + Node.js + Express + AWS EC2/S3/RDS + PostgreSQL",
       "Img":"/GiftHandler.png",
       "Link":"https://github.com/BobTabrizi/GiftHandler",
       "CurrentDev":true,
@@ -11,7 +11,7 @@
  {
     "ID":2,
     "Name":"Hello World",
-    "Tech":"NextJS + Node.js + Express +  MongoDB + AWS",
+    "Tech":"NextJS + Node.js + Express +  MongoDB + AWS Lambda/S3",
     "Img":"/HelloWorld.jpg",
     "Link":"https://github.com/BobTabrizi/Hello-World",
     "Description":"Spotify web application that allows users to explore and discover sounds from nations around the world."
@@ -19,7 +19,7 @@
  { 
     "ID":3,
     "Name":"GenSim",
-    "Tech":"React Native + Firebase",
+    "Tech":"React Native + Firebase + AWS S3",
     "Img":"/GenSim.png",
     "Link":"https://play.google.com/store/apps/details?id=com.gensim",
     "Description":"Mobile application simulator based off of the game Genshin Impact developed using community speculated probabilities."

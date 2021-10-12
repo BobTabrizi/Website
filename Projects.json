@@ -14,6 +14,7 @@
     "Tech":"NextJS + Node.js + Express +  MongoDB + AWS Lambda/S3",
     "Img":"/HelloWorld.jpg",
     "Link":"https://github.com/BobTabrizi/Hello-World",
+    "CurrentDev":false,
     "Description":"Spotify web application that allows users to explore and discover sounds from nations around the world."
  }, 
  { 
@@ -21,6 +22,7 @@
     "Name":"GenSim",
     "Tech":"React Native + Firebase + AWS S3",
     "Img":"/GenSim.png",
+    "CurrentDev":false,
     "Link":"https://play.google.com/store/apps/details?id=com.gensim",
     "Description":"Mobile application simulator based off of the game Genshin Impact developed using community speculated probabilities."
  },
@@ -37,6 +39,7 @@
    "Name":"TT Damage Calculator",
    "Tech":"Angular + Bootstrap",
    "Img":"/TTDamageCalculator.png",
+   "CurrentDev":false,
    "Link":"https://github.com/BobTabrizi/TTDamageCalculator",
    "Description":"A damage calculator that simulates Toontown battle mechanics for a single turn. Current version is for the Corporate Clash server."
 },
@@ -45,6 +48,7 @@
     "Name":"Auto Java",
     "Tech":"Java",
     "Img":"/AutoJava.jpg",
+    "CurrentDev":false,
     "Link":"https://github.com/BobTabrizi/AutoJava",
     "Description":"Desktop application that records inputs from mouse/keyboard and stores them in text files for real time playback."
  }

@@ -12,10 +12,9 @@ export const About = () => {
             </div>
             <div className={styles.aboutBody}>
               <div className={styles.aboutBio} style={{ fontSize: 20 }}>
-                I&apos;m an apsiring software engineer currently located in San
-                Jose CA.
-                <br />I have a deep passion for desiging and developing cool new
-                things that others can use.
+                I&apos;m a software engineer living in San Diego, California
+                <br />I love desiging and developing cool new things that others
+                can use.
               </div>
               <div className={styles.aboutEducation}>
                 <div style={{ color: "#6596cf" }}>EDUCATION</div>

@@ -1,15 +1,6 @@
 [
-   {
-      "ID":1,
-      "Name":"Gift Handler",
-      "Tech":"ReactJS + Redux + Node.js + Express + AWS EC2/S3/RDS + PostgreSQL",
-      "Img":"/GiftHandler.png",
-      "Link":"https://github.com/BobTabrizi/GiftHandler",
-      "CurrentDev":true,
-      "Description":"Gift Registry Website for organizing gifting during special events"
-   }, 
  {
-    "ID":2,
+    "ID":1,
     "Name":"Hello World",
     "Tech":"NextJS + Node.js + Express +  MongoDB + AWS Lambda/S3",
     "Img":"/HelloWorld.jpg",
@@ -18,7 +9,7 @@
     "Description":"Spotify web application that allows users to explore and discover sounds from nations around the world."
  }, 
  { 
-    "ID":3,
+    "ID":2,
     "Name":"GenSim",
     "Tech":"React Native + Firebase + AWS S3",
     "Img":"/GenSim.png",
@@ -27,13 +18,30 @@
     "Description":"Mobile application simulator based off of the game Genshin Impact developed using community speculated probabilities."
  },
  { 
-    "ID":4,
+   "ID":3,
+   "Name":"Auto Java",
+   "Tech":"Java",
+   "Img":"/AutoJava.jpg",
+   "CurrentDev":false,
+   "Link":"https://github.com/BobTabrizi/AutoJava",
+   "Description":"Desktop application that records inputs from mouse/keyboard and stores them in text files for real time playback."
+},
+ { 
+    "ID":3,
     "Name":"Bob Appetit",
     "Tech":"React Native + Firebase",
     "Img":"/BobAppetit.jpg",
     "Link":"https://play.google.com/store/apps/details?id=com.bobappet",
     "Description":"Mobile app that generates food recommendations based on personal preferences (allergies, diet, cuisine)."
  },
+ {
+   "ID":4,
+   "Name":"Gift Handler",
+   "Tech":"ReactJS + Redux + Node.js + Express + AWS EC2/S3/RDS + PostgreSQL",
+   "Img":"/GiftHandler.png",
+   "Link":"https://github.com/BobTabrizi/GiftHandler",
+   "Description":"Gift Registry Website for organizing gifting during special events"
+}, 
  { 
    "ID":5,
    "Name":"TT Damage Calculator",
@@ -42,15 +50,5 @@
    "CurrentDev":false,
    "Link":"https://github.com/BobTabrizi/TTDamageCalculator",
    "Description":"A damage calculator that simulates Toontown battle mechanics for a single turn. Current version is for the Corporate Clash server."
-},
- { 
-    "ID":6,
-    "Name":"Auto Java",
-    "Tech":"Java",
-    "Img":"/AutoJava.jpg",
-    "CurrentDev":false,
-    "Link":"https://github.com/BobTabrizi/AutoJava",
-    "Description":"Desktop application that records inputs from mouse/keyboard and stores them in text files for real time playback."
- }
-
+}
 ]

@@ -12,18 +12,19 @@ export const About = () => {
             </div>
             <div className={styles.aboutBody}>
               <div className={styles.aboutBio} style={{ fontSize: 20 }}>
-                I&apos;m a software engineer living in San Diego, California
+                I&apos;m a full stack software engineer living in San Diego,
+                California
                 <br />I love desiging and developing cool new things that others
                 can use.
               </div>
               <div className={styles.aboutEducation}>
                 <div style={{ color: "#6596cf" }}>EDUCATION</div>
-                UC San Diego
-                <br /> Computer Science and Mathematics
+                UC San Diego 2021
+                <br /> B.S. Computer Science and Mathematics
               </div>
             </div>
           </div>
-          <div className={styles.skillHeader}>RELEVANT SKILLS</div>
+          <div className={styles.skillHeader}>SKILLS</div>
 
           <div className={styles.cardContainer}>
             <div className={styles.card}>
@@ -33,9 +34,9 @@ export const About = () => {
               <div className={styles.cardBody}>
                 <ul className={styles.cardList}>
                   <li>JavaScript</li>
+                  <li>TypeScript</li>
                   <li>React Native / ReactJS / NextJS</li>
                   <li>HTML / CSS</li>
-                  <li>Angular</li>
                 </ul>
               </div>
             </div>
@@ -59,7 +60,7 @@ export const About = () => {
               <div className={styles.cardBody}>
                 <ul className={styles.cardList}>
                   <li>Git</li>
-                  <li>Docker</li>
+                  <li>Jenkins</li>
                   <li>MongoDB</li>
                   <li>AWS S3 / Lambda</li>
                 </ul>

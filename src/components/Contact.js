@@ -31,7 +31,7 @@ export const Contact = () => {
               priority={true}
             ></Image>
           </a>
-          <a href="mailto:btabrizi@ucsd.edu">
+          <a href="mailto:bobak.tabrizi@gmail.com">
             <Image
               src="/Email.png"
               height="60px"
